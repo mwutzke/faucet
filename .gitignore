@@ -5,6 +5,11 @@ pytype_output/
 *.py[cod]
 *$py.class
 
+# Misc
+*.log
+*.patch
+*.rej
+
 # C extensions
 *.so
 
@@ -88,6 +93,9 @@ celerybeat-schedule
 
 # dotenv
 .env
+
+# Vagrant
+.vagrant/
 
 # virtualenv
 .venv
